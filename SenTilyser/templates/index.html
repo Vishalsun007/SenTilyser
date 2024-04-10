@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Audio Sentiment Analysis</title>
+  {% load static %}
+  <link rel="stylesheet" href="{% static '/css/styles.css' %}">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>SenTilyser</h1>
+  </header>
+  <main>
+    <div id="audioInputArea">
+      <h2>Drag and drop or upload an audio file</h2>
+      <input type="file" id="audioFileInput" accept=".mp3,.wav,.ogg"><br>
+      <div id="audioPreviewContainer"></div>
+    </div>
+    <div id="outputArea" style="display:none;">
+      <h3>SenTilysing...</h3>
+      <div id="sentimentResult"></div>
+      <div id="sentimentText"></div>
+    </div>
+  </main>
+  {% load static %}
+  <script type="text/javascript" src="{% static '/js/script.js' %}"></script>
+</body>
+</html>

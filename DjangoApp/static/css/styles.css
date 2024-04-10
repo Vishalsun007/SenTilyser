@@ -1,0 +1,66 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  #audioInputArea {
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  #audioInputArea.dragover {
+    background-color: #ffd36f;
+    border-color: #ffaa00;
+  }
+
+  #audioPreviewContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  #audioPlayer {
+    max-width: 100%;
+  }
+
+  #outputArea {
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+
+  #sentimentResult {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  #sentimentText {
+    margin-top: 20px;
+  }
